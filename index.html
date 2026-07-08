@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blaosk — AI Commercial Production · CGI · Visual Specialist</title>
+<meta name="description" content="Blaosk — AI commercial production, CGI and visual specialist studio. Photoreal product films for jewelry, watches, fragrance and design brands.">
+
+<link rel="icon" type="image/png" href="assets/logo/blaosk-bk-white.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Grain / cinematic overlay -->
+<div class="grain"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__logo">
+    <img src="assets/logo/blaosk-wordmark-white.png" alt="Blaosk">
+  </a>
+
+  <nav class="nav__links" id="navLinks">
+    <a href="#work" data-i18n="nav.work">Work</a>
+    <a href="#process" data-i18n="nav.process">Process</a>
+    <a href="#about" data-i18n="nav.about">About</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+  </nav>
+
+  <div class="nav__right">
+    <div class="lang-switch" id="langSwitch" aria-label="Language switch">
+      <button type="button" data-lang-btn="en" class="active">EN</button>
+      <span>/</span>
+      <button type="button" data-lang-btn="pt">PT</button>
+    </div>
+    <button class="nav__burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero__bg" id="heroBg"><!-- slides injected by JS for lazy-loading --></div>
+  <div class="hero__scrim"></div>
+  <div class="hero__vignette"></div>
+
+  <div class="hero__content">
+    <img src="assets/logo/blaosk-wordmark-white.png" alt="Blaosk" class="hero__logo">
+    <p class="hero__tagline" data-i18n="hero.tagline">AI Commercial Production · CGI · Visual Specialist</p>
+    <a href="#work" class="hero__cta" data-i18n="hero.cta">View the work</a>
+  </div>
+
+  <div class="hero__ticks" id="heroTicks"><!-- injected by JS --></div>
+
+  <div class="hero__scroll">
+    <span data-i18n="hero.scroll">Scroll</span>
+    <div class="hero__scroll-line"></div>
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section class="section work" id="work">
+  <div class="section__head">
+    <span class="eyebrow" data-i18n="work.eyebrow">The Work</span>
+    <h2 data-i18n="work.title">Eighteen worlds, built frame by frame.</h2>
+    <p class="section__lede" data-i18n="work.lede">From jewelry to spirits, watches to footwear — every project blends AI generation, 3D and cinema-grade post production into imagery indistinguishable from reality.</p>
+  </div>
+
+  <div class="grid" id="workGrid"><!-- injected by JS --></div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section process" id="process">
+  <div class="section__head">
+    <span class="eyebrow" data-i18n="process.eyebrow">The Process</span>
+    <h2 data-i18n="process.title">One pipeline. Every possible starting point.</h2>
+    <p class="section__lede" data-i18n="process.lede">Whether a brand arrives with nothing but a brief, or a full 3D file ready for fabrication — the path to a finished film runs through the same seven stages.</p>
+  </div>
+
+  <ol class="pipeline" id="pipeline"><!-- injected by JS --></ol>
+
+  <div class="start-cards">
+    <div class="start-card">
+      <span class="start-card__num">A</span>
+      <h3 data-i18n="process.startA.title">Starting from nothing</h3>
+      <p data-i18n="process.startA.body">No 3D model, no product photos — no problem. Every project can begin from a written brief and a moodboard alone, built entirely through AI generation.</p>
+    </div>
+    <div class="start-card">
+      <span class="start-card__num">B</span>
+      <h3 data-i18n="process.startB.title">Starting from a 3D file</h3>
+      <p data-i18n="process.startB.body">Already have an STL, OBJ or FBX for fabrication or 3D printing? Even better — it becomes the perfect reference for precise AI texturing and lighting.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="about">
+  <div class="about__grid">
+    <div class="about__col-text">
+      <span class="eyebrow" data-i18n="about.eyebrow">The Specialist</span>
+      <h2 data-i18n="about.title">Twenty-five years behind the lens. A new way of seeing.</h2>
+      <p data-i18n="about.p1">Two and a half decades in high-end photography and retouching built the eye. The years since have been spent mastering 3D and generative AI — building the range. Today, that combination delivers commercial imagery that reads as reality, for brands that need the impossible photographed.</p>
+      <p data-i18n="about.p2">International studio experience across Rio de Janeiro, London and Prague. Fluent in English and Portuguese, confident in Spanish, with working knowledge of Czech.</p>
+
+      <div class="stats">
+        <div class="stat">
+          <strong>25+</strong>
+          <span data-i18n="about.stat1">Years in image-making</span>
+        </div>
+        <div class="stat">
+          <strong>3</strong>
+          <span data-i18n="about.stat2">Countries of studio experience</span>
+        </div>
+        <div class="stat">
+          <strong>18</strong>
+          <span data-i18n="about.stat3">Productions in the reel</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__col-tools">
+      <span class="eyebrow" data-i18n="about.toolsEyebrow">Software &amp; Platforms</span>
+      <ul class="tool-list">
+        <li>Blender</li>
+        <li>Rhinoceros</li>
+        <li>KeyShot</li>
+        <li>iClone</li>
+        <li>Character Creator</li>
+        <li>Substance Painter</li>
+        <li>Photoshop</li>
+        <li>After Effects</li>
+        <li>Premiere</li>
+        <li>HyperFrames</li>
+        <li>Adobe Firefly</li>
+        <li>ComfyUI</li>
+        <li>Higgsfield</li>
+        <li>Claude</li>
+        <li>Google AI Studio</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <span class="eyebrow" data-i18n="contact.eyebrow">Let's Create</span>
+  <h2 data-i18n="contact.title">Have a product worth making unforgettable?</h2>
+  <p class="section__lede" data-i18n="contact.lede">Tell me about the brief — I'll tell you how we bring it to the screen.</p>
+
+  <a href="mailto:blaosk@mail.com" class="contact__email">blaosk@mail.com</a>
+
+  <div class="contact__socials">
+    <a href="https://www.instagram.com/blaosk.art/" target="_blank" rel="noopener">Instagram — @blaosk.art</a>
+    <a href="https://www.linkedin.com/in/schirley-amaral-58389943/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://www.youtube.com/@Blaosk.Official" target="_blank" rel="noopener">YouTube — @Blaosk.Official</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <img src="assets/logo/blaosk-bk-white.png" alt="Blaosk" class="footer__mark">
+  <p data-i18n="footer.rights">© <span id="year"></span> Blaosk. All rights reserved.</p>
+</footer>
+
+<!-- ============ GAME FAB (top-right, always visible) ============ -->
+<button id="gameTrigger" class="game-fab" title="// blaosk_arcade">
+  <span data-i18n="footer.play">▶ play</span>
+</button>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Close">✕</button>
+  <div class="lightbox__inner" id="lightboxInner"></div>
+</div>
+
+<!-- ============ GAME OVERLAY ============ -->
+<div class="game-overlay" id="gameOverlay">
+  <div class="game-panel" id="gamePanel">
+    <button class="game-panel__close" id="gameClose" aria-label="Close">✕</button>
+    <div class="game-panel__head">
+      <span class="game-panel__title">BLAOSK_ARCADE.exe</span>
+      <span class="game-panel__phase" id="gamePhase">PHASE 1: 3D FOUNDATION</span>
+      <span class="game-panel__score">SCORE <b id="gameScore">0</b> &nbsp; BEST <b id="gameBest">0</b></span>
+    </div>
+    <canvas id="gameCanvas" width="900" height="450"></canvas>
+    <p class="game-panel__hint" id="gameHint" data-i18n="game.hint">Space / tap to jump and absorb the next skill.</p>
+  </div>
+</div>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/projects.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/game.js"></script>
+</body>
+</html>
